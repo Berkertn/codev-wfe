@@ -1,0 +1,23 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(131, 155, 211);
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25;
+    color: #fff;
+    padding: 25px 10px;
+}
+.actions{
+    background-color: white; /* Kutuların arka plan rengi */
+    padding: 20px; /* Kutuların iç boşluğu */
+    margin: 10px; /* Kutuların dış boşluğu */
+    border-radius: 10px; /* Kutuların köşelerinin yuvarlatılması */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+    flex: 1; /* Eşit genişlikte olmaları için */
+    text-align: center; /* İçeriklerin ortalanması */
+    font-size: 24px; /* Yazı boyutu */
+    color: grey;
+}
